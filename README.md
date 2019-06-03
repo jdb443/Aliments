@@ -1,7 +1,7 @@
 # Aliments
 ##Project 1 Group 7
 ## Group Members
-Jonathan Behar
-Yemi Kehinde
-Vidhi Vakharia
-Cory McShea
+Jonathan Behar <br>
+Yemi Kehinde <br>
+Vidhi Vakharia <br>
+Cory McShea <br>
