@@ -1,5 +1,4 @@
-//zomato api 
-
+//zomato api   
 
 $(document).ready(function () {
 
