@@ -1,90 +1,183 @@
-<!-- Project 1 Group 7-->
 <!DOCTYPE html>
-<html lang = "en-US">
+<html lang="en">
 <head>
-    <meta charset = "UTF-8">
-    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
-    <meta http-equiv = "X-UA-Compatible" content = "ie=edge">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Project 1 Group 7 - Cook-It or Book-It</title>
 
-    <!--Bootstrap-->
-    <link rel = "stylesheet" href = "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity = "sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-    <!--Materialize css-->
-    <!-- Compiled and minified CSS -->
-    <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    
-    <!-- Material Icons-->
-    <link rel = "stylesheet" href = "https://fonts.googleapis.com/icon?family=Material+Icons">
-    
-    <!-- Font Awesome CSS Icons (For cool glyphicons) -->
-    <link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-
-    <!-- Custom CSS -->
-    <link rel = "stylesheet" type = "text/css" href = "assets/css/reset.css">
-    <link rel = "stylesheet" type = "text/css" href = "assets/css/style.css">
-
-    <title>Cook-It or Book-It</title>
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="assets/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 
 </head>
 <body>
+  <nav class="red navbarbers lighten-1" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Cook-It or Book-It</a>
+        <ul class="right hide-on-med-and-down">
+                <li><a href = "#">About</a></li>
+                <li><a href = "#">Project</a></li>
+                <li><a href = "#">Team</a></li>
+                <li><a href = "#">Contact</a></li>
+        </ul>
 
-        <div class="container">
-                <header>
-                    
-                    <nav class="navbar navbar-expand-sm navbar-light bg-light navbar-nocolor">
-                            <a class="navbar-brand" href="index.html">Cook-It or Book-It</a>
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                              </button>
-                            <div class="navbar-collapse collapse w-1 order-3 dual-collapse2" id="navbarSupportedContent">
-                                <ul class="navbar-nav ml-auto">
-                                    <li class="nav-item px-2 py-1">
-                                        <a class="nav-link" href="index.html">About</a>
-                                    </li>
-                                    <li class="nav-item px-2 py-1">
-                                        <a class="nav-link" href="#">Project</a>
-                                    </li>
-                                    <li class="nav-item px-2 py-1">
-                                        <a class="nav-link" href="#">Team</a>
-                                    </li>
-                                    <li class="nav-item px-2 py-1">
-                                        <a class="nav-link" href="#">Contact</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </nav>
-                </header>
-                <h1 class="fa fa-newspaper-o"><span>To Stay in or Go out, that is the question!</span></h1>
-                <div class="article">
-                    <h3 class="article-header">
-                        Search Parameters
-                    </h3>
-                    <div class="article-body">
-                        <form>
-                            <div class="form-group">
-                                <label for="search-term">Search Term</label>
-                                <input type="text" class="form-control" id="search-term">
-                            </div>
-                            <button type="submit" class="btn btn-primary" id="submit-button"><i class="fa fa-search"
-                                    aria-hidden="true"></i>
-                                Search</button>
-                            <button type="submit" class="btn btn-primary" id="clear-button"><i class="fa fa-trash"
-                                    aria-hidden="true"></i>
-                                Clear</button>
-                        </form>
+        <ul id="nav-mobile" class="sidenav">
+            <li><a href = "#">About</a></li>
+            <li><a href = "#">Project</a></li>
+            <li><a href = "#">Team</a></li>
+            <li><a href = "#">Contact</a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+  <div class="card small">
+    <div class="parallax-container">
+      <br><br>
+        <div class = "section hoverable responsive-img ">
+            <div class = "responsive-img">
+                <!-- <img src="assets/images/background-black-cast-iron.jpeg" alt="Jon"> -->
+                <h1 class="container header center valign-wrapper center-align orange-text section-title">Starter Template</h1>
+            </div>
+        </div>
+      <div class="row center">
+        <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+      </div>
+      <div class="row center">
+        <a href="#" id="download-button" class="btn-large waves-effect waves-light orange">Get Started</a>
+      </div>
+      <br><br>
+
+    </div>
+  </div>
+
+
+    <div class="container">
+        <div class="section">
+
+        <!--   Icon Section   -->
+            <div class="row">
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <h2 class="center light-blue-text"><i class="material-icons">flash_on</i></h2>
+                        <h5 class="center">Speeds up development</h5>
+
+                        <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <h2 class="center light-blue-text"><i class="material-icons">group</i></h2>
+                        <h5 class="center">User Experience Focused</h5>
+
+                        <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <h2 class="center light-blue-text"><i class="material-icons">settings</i></h2>
+                        <h5 class="center">Easy to work with</h5>
+
+                        <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
                     </div>
                 </div>
             </div>
-    
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src = "https://code.jquery.com/jquery-3.4.1.min.js" integrity = "sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin = "anonymous"></script>
-    <!-- Compiled and minified JavaScript -->
-    <script src = "https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src = "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity = "sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin = "anonymous"></script>
-    <script src = "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity = "sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin = "anonymous"></script>
-    <script type = "text/javascript" src = "/assets/javascript/.gitignore/config.js"></script>
-    <script type = "text/javascript" src = "/assets/javascript/code.js"></script>
-  
-</body>
+
+        </div>
+    <br><br>
+        
+    <!-- </div> -->
+
+
+    </div>
+    <div class = "">
+        <div class="col s12 m8 offset-m2 l6 offset-l3">
+            <div class="card-panel white lighten-5 z-depth-1 marbot0">
+                <div class="container">
+                    <h1>Team Members</h1>
+                    <div class="row marbot0">
+                        <div class="col s12 m3">
+                            <div class="icon-block">
+                                <h2 class="center light-blue-text"><img src="assets/images/Jon.jpg" alt="Jon" class="circle responsive-img"></h2>
+                                <h5 class="center">Jonathan Behar</h5>
+        
+                                <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+                            </div>
+                        </div>
+        
+                        <div class="col s12 m3">
+                            <div class="icon-block">
+                                <h2 class="center light-blue-text"><img src="assets/images/Yemi.png" alt="Yemi" class="circle responsive-img"></h2>
+                                <h5 class="center">Oluwayemi Kehinde</h5>
+        
+                                <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+                            </div>
+                        </div>
+        
+                        <div class="col s12 m3">
+                            <div class="icon-block">
+                                <h2 class="center light-blue-text"><img src="assets/images/Cory.jpeg" alt="Cory" class="circle responsive-img"></h2>
+                                <h5 class="center">Cory McShea</h5>
+        
+                                <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+                            </div>
+                        </div>
+                        <div class="col s12 m3">
+                            <div class="icon-block">
+                                <h2 class="center light-blue-text"><img src="assets/images/Vidhi.png" alt="Vidhi" class="circle responsive-img"></h2>
+                                <h5 class="center">Vidhi Vakharia</h5>
+        
+                                <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  <footer class="page-footer navbarora">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Company Bio</h5>
+          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+
+
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Settings</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Link 1</a></li>
+            <li><a class="white-text" href="#!">Link 2</a></li>
+            <li><a class="white-text" href="#!">Link 3</a></li>
+            <li><a class="white-text" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Connect</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Link 1</a></li>
+            <li><a class="white-text" href="#!">Link 2</a></li>
+            <li><a class="white-text" href="#!">Link 3</a></li>
+            <li><a class="white-text" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Made by <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="assets/javascript/materialize.js"></script>
+  <script src="assets/javascript/init.js"></script>
+
+  </body>
 </html>
