@@ -1,1 +1,44 @@
-/* Project 1 Group 7 CSS */
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+.navbarbers {
+    height: 75px;
+    background-color: #ff0000;
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(255, 255, 255, 0.2) 35px, rgba(255, 255, 255, 0.2) 70px), repeating-linear-gradient(-45deg, transparent, transparent 35px, rgba(255,255,255,0.4) 35px, rgba(255,255,255,0.4) 70px);
+    background-attachment: fixed;
+    padding-left: 20px;
+    padding-top: 12px;
+}
+
+.navbarora {
+  height: 600px;
+  background-color: #FFA500;
+  background-image: repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(255, 255, 255, 0.2) 35px, rgba(255, 255, 255, 0.2) 70px), repeating-linear-gradient(-45deg, transparent, transparent 35px, rgba(255,255,255,0.4) 35px, rgba(255,255,255,0.4) 70px);
+  background-attachment: fixed;
+  padding-left: 20px;
+  padding-top: 12px;
+  margin-top: 0px;
+}
+
+.marbot0 {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
