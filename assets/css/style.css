@@ -4,14 +4,57 @@
  * the core Materialize files in the future
  *
  * Made By MaterializeCSS.com
- * Changes by Aliments
  */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 700px;
+  line-height: 0;
+  height: auto;
+  color: #808080;
+  margin-top: 75px;
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
 
 .icon-block {
   padding: 0 15px;
 }
 .icon-block .material-icons {
-	font-size: inherit;
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
 }
 
 .navbarbers {
@@ -24,8 +67,136 @@
   border: 0px;
 }
 
+.sticknav {
+  top: 0;
+  position: fixed;
+  z-index: 10000000000;
+}
+
+.navbarreds {
+  background-color: #ff0000;
+  background-image: repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(255, 255, 255, 0.2) 35px, rgba(255, 255, 255, 0.2) 70px), repeating-linear-gradient(-45deg, transparent, transparent 35px, rgba(255,255,255,0.4) 35px, rgba(255,255,255,0.4) 70px);
+  background-attachment: fixed;
+  padding-left: 20px;
+  padding-top: 12px;
+  border: 0px;
+}
+
+.marg0{
+  margin:0;
+  padding-top: 75px;
+}
+
+.padbot75 {
+  padding-bottom: 75px;
+}
+
+.searchbarf {
+  border-bottom: 1px solid #ffffff;
+  -webkit-box-shadow: 0 1px 0 0 #ffffff;
+  box-shadow: 0 1px 0 0 #FFFFFF;
+}
+
+input.invalid:not([type]), input.invalid:not([type]):focus,
+input[type=text].invalid:not(.browser-default),
+input[type=text].invalid:not(.browser-default):focus,
+input[type=password].invalid:not(.browser-default),
+input[type=password].invalid:not(.browser-default):focus,
+input[type=email].invalid:not(.browser-default),
+input[type=email].invalid:not(.browser-default):focus,
+input[type=url].invalid:not(.browser-default),
+input[type=url].invalid:not(.browser-default):focus,
+input[type=time].invalid:not(.browser-default),
+input[type=time].invalid:not(.browser-default):focus,
+input[type=date].invalid:not(.browser-default),
+input[type=date].invalid:not(.browser-default):focus,
+input[type=datetime].invalid:not(.browser-default),
+input[type=datetime].invalid:not(.browser-default):focus,
+input[type=datetime-local].invalid:not(.browser-default),
+input[type=datetime-local].invalid:not(.browser-default):focus,
+input[type=tel].invalid:not(.browser-default),
+input[type=tel].invalid:not(.browser-default):focus,
+input[type=number].invalid:not(.browser-default),
+input[type=number].invalid:not(.browser-default):focus,
+input[type=search].invalid:not(.browser-default),
+input[type=search].invalid:not(.browser-default):focus,
+textarea.materialize-textarea.invalid,
+textarea.materialize-textarea.invalid:focus, .select-wrapper.invalid > input.select-dropdown,
+.select-wrapper.invalid > input.select-dropdown:focus {
+  border-bottom: 1px solid #FFFFFF;
+  -webkit-box-shadow: 0 1px 0 0 #FFFFFF;
+          box-shadow: 0 1px 0 0 #FFFFFF;
+}
+
+input:not([type]),
+input[type=text]:not(.browser-default),
+input[type=password]:not(.browser-default),
+input[type=email]:not(.browser-default),
+input[type=url]:not(.browser-default),
+input[type=time]:not(.browser-default),
+input[type=date]:not(.browser-default),
+input[type=datetime]:not(.browser-default),
+input[type=datetime-local]:not(.browser-default),
+input[type=tel]:not(.browser-default),
+input[type=number]:not(.browser-default),
+input[type=search]:not(.browser-default),
+textarea.materialize-textarea {
+  background-color: transparent;
+  border: none;
+  border-bottom: 3px solid #FFFFFF;
+  border-radius: 0;
+  outline: none;
+  height: 3rem;
+  /* width: 100%; */
+  font-size: 16px;
+  margin: 0 0 8px 0;
+  padding: 0 0 0 40px; /* changed */
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  -webkit-transition: border .3s, -webkit-box-shadow .3s;
+  transition: border .3s, -webkit-box-shadow .3s;
+  transition: box-shadow .3s, border .3s;
+  transition: box-shadow .3s, border .3s, -webkit-box-shadow .3s;
+}
+
+input.valid:not([type]), input.valid:not([type]):focus,
+input[type=text].valid:not(.browser-default),
+input[type=text].valid:not(.browser-default):focus,
+input[type=password].valid:not(.browser-default),
+input[type=password].valid:not(.browser-default):focus,
+input[type=email].valid:not(.browser-default),
+input[type=email].valid:not(.browser-default):focus,
+input[type=url].valid:not(.browser-default),
+input[type=url].valid:not(.browser-default):focus,
+input[type=time].valid:not(.browser-default),
+input[type=time].valid:not(.browser-default):focus,
+input[type=date].valid:not(.browser-default),
+input[type=date].valid:not(.browser-default):focus,
+input[type=datetime].valid:not(.browser-default),
+input[type=datetime].valid:not(.browser-default):focus,
+input[type=datetime-local].valid:not(.browser-default),
+input[type=datetime-local].valid:not(.browser-default):focus,
+input[type=tel].valid:not(.browser-default),
+input[type=tel].valid:not(.browser-default):focus,
+input[type=number].valid:not(.browser-default),
+input[type=number].valid:not(.browser-default):focus,
+input[type=search].valid:not(.browser-default),
+input[type=search].valid:not(.browser-default):focus,
+textarea.materialize-textarea.valid,
+textarea.materialize-textarea.valid:focus, .select-wrapper.valid > input.select-dropdown {
+  border-bottom: 1px solid #FFFFFF;
+  -webkit-box-shadow: 0 1px 0 0 #FFFFFF;
+          box-shadow: 0 1px 0 0 #FFFFFF;
+}
+
+.input-field .prefix.active {
+  color: #808080;
+}
+
 .navbarora {
-  height: 600px;
+
   background-color: #FFA500;
   background-image: repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(255, 255, 255, 0.2) 35px, rgba(255, 255, 255, 0.2) 70px), repeating-linear-gradient(-45deg, transparent, transparent 35px, rgba(255,255,255,0.4) 35px, rgba(255,255,255,0.4) 70px);
   background-attachment: fixed;
@@ -34,151 +205,24 @@
   margin-top: 0px;
 }
 
-.marbot0 {
-  margin-bottom: 0px;
-  padding-bottom: 0px;
-  border: 0px;
-}
-
-.img-responsive {
-  max-width: 100%;
-  height: auto;
-  vertical-align: middle;
-}
-
-.martop0{
-  margin-top: 75px;
-  padding-top: 0px;
-  border: 0px;
-}
-
-.noback {
-  background: none;
-}
-
-.sticknav {
-  top: 0;
-  position: fixed;
-  z-index: 100;
-}
-
-/* .allcenter {
-  height: 100%;
-  vertical-align: center;
-  text-align: center;
-  
-  right: 0;
-  left: 0;
-} */
-
-.card-center {
-  height: 100%;
-  width: 40%;
-  right: 0;
-  left: 0;
-  margin: auto;
-  text-align: center;
-  font-size: 1vw;
-  align-content: flex-end;
-  bottom:15%;
-}
-
-/* .logo-title {
-  font-size: 1.8rem;
-  padding: 0;
-  position: absolute;
-  color: #ffffff;
+.navlogoH {
+  font-size: 1.4rem;
+  line-height: normal;
+  padding-top: 20px;
   display: inline-block;
-
-  font-family: ; 
-} */
-
-nav .brand-logo {
-  position: absolute;
-  color: #fff;
-  display: inline-block;
-  font-size: 1.8rem;
   padding: 0;
-}
-
-nav .brand-logo.center {
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-}
-
-@media only screen and (max-width: 992px) {
-  nav .brand-logo {
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
-  }
-  nav .brand-logo.left, nav .brand-logo.right {
-    padding: 0;
-    -webkit-transform: none;
-            transform: none;
-  }
-  nav .brand-logo.left {
-    left: 0.5rem;
-  }
-  nav .brand-logo.right {
-    right: 0.5rem;
-    left: auto;
-  }
-}
-
-nav .brand-logo.right {
-  right: 0.5rem;
-  padding: 0;
-}
-
-nav .brand-logo i,
-nav .brand-logo [class^="mdi-"], nav .brand-logo [class*="mdi-"],
-nav .brand-logo i.material-icons {
-  float: left;
-  margin-right: 15px;
-}
-
-.welcome {
-  font-family: 1vw;
-}
-
-.card .card-title {
-  font-size: 22px;
-  font-weight: 300;
-}
-
-.navbarsearchgreen {
-  height: 75px;
-  background-color: white;
-  color: black;
-  /* background-color: #009714;
-  background-image: repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(255, 255, 255, 0.2) 35px, rgba(255, 255, 255, 0.2) 70px), repeating-linear-gradient(-45deg, transparent, transparent 35px, rgba(255,255,255,0.4) 35px, rgba(255,255,255,0.4) 70px); */
-  background-attachment: fixed;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border: 0px;
-  /* bottom: 0; */
-  /* height: 100%; */
-  width: 100%;
-  right: 0;
-  left: 0;
-  margin: auto;
-  text-align: center;
-  font-size: 1vw;
-  align-content: center;
-  /* color: #fff; */
   position: absolute;
-  top: 35%;
-  left: 0;
-  max-width: 100%;
-  padding: 24px;
+  transform: translateX(80%);
+  margin-top: 15px;
+  /* transform: translateY(50%); */
 }
 
-nav .input-field label i {
-  color: black;
-  line-height: 1.6;
-  font-weight: bolder;
+.justify {
+  text-align: justify;
+}
+
+.movsearch {
+  padding-left: 10px;
+  padding-right: 10px;
+  top: .75rem;
 }
