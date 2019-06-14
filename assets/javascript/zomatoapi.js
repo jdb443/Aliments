@@ -62,7 +62,6 @@ $(document).ready(function () {
                         $("<td class='inlineH'>").text("$" + cost),
                         $("<td class='inlineH'>").html('<a target="_blank" href="' + menuUrl + '">Menu</a>'),
                         $("<td class='inlineH'>").html('<img class="api-image-smaller" src="' + imageUrl + '">'),
-
                     );
 
                     //Prepend the new row to the table

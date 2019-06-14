@@ -36,12 +36,12 @@ $(document).ready(function () {
                 foodImage.attr('alt', 'food image');
                 //console.log(Url);
                 // Create the new row
-                var newRow = $('<tr class="inlineH">').append(
-                    $('<th class="inlineH">').text("hi"),
-                    $('<td class="inlineH">').html('<img class="api-image-smaller" src="' + imageUrl + '">'),
-                    $('<td class="inlineH">').text(healthLabel),
-                    $('<td class="inlineH">').text(caution),
-                    $('<td class="inlineH">').text(recipes)
+                var newRow = $('<tr class="inlineH s6">').append(
+                    $('<th class="inlineH s2">').text("hi"),
+                    $('<td class="inlineH s2">').html('<img class="api-image-smaller" src="' + imageUrl + '">'),
+                    $('<td class="inlineH s2">').text(healthLabel),
+                    $('<td class="inlineH s2">').text(caution),
+                    $('<td class="inlineH s2">').text(recipes)
                 );
                 console.log(newRow)
                 // Append the new row to the table

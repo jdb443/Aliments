@@ -265,8 +265,8 @@ textarea.materialize-textarea.valid:focus, .select-wrapper.valid > input.select-
 }
 
 .api-image-smaller {
-  height: 250px;
-  width: 250px;
+  height: 100px;
+  width: 100px;
 }
 
 .backrepeat {
