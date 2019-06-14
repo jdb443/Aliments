@@ -3,7 +3,7 @@ $(document).ready(function () {
 
     //adding click event listener
     $("#submit-button").on("click", function () {
-        var cuisine = $("#cuisine-type").val().trim();
+        var cuisine = $("#search").val().trim();
 
         console.log(cuisine);
 
