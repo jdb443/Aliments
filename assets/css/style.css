@@ -20,15 +20,52 @@ p {
 }
 
 .parallax-container {
-  min-height: 700px;
   line-height: 0;
   height: auto;
   color: #808080;
-  margin-top: 75px;
 }
-  .parallax-container .section {
-    width: 100%;
-  }
+
+.martop75 {
+  margin-top: 75px;
+  min-height: 700px;
+}
+
+.minheight700 {
+  min-height: 700px;
+}
+
+.martop80 {
+  min-height: 1927px;
+}
+
+
+.parallax-container0 {
+  min-height: 1927px;
+  line-height: 0;
+  height: auto;
+  color: #808080;
+  position: relative;
+  overflow: hidden;
+  margin-top: 0px;
+  display: flex;
+}
+
+.parallax-container0 .parallax img {
+  opacity: 0;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.parallax-container .section {
+  width: 100%;
+}
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
@@ -230,4 +267,13 @@ textarea.materialize-textarea.valid:focus, .select-wrapper.valid > input.select-
 .api-image-smaller {
   height: 250px;
   width: 250px;
+}
+
+.backrepeat {
+  background-image: url("assets/images/cheese-cherry-tomato-cooking.jpg");
+  background-repeat: repeat;
+}
+
+.inlineH {
+  line-height: 20px;
 }
