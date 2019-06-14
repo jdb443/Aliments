@@ -59,16 +59,14 @@ $(document).ready(function () {
                         $("<th>").text(name),
                         $("<th>").text(location),
                         $("<th>").text(hours),
-                        $("<th>").text(cost),
-                        $("<td>").html('<a href="' + menuUrl + '">Menu</a>'),
-                        //get menu link to open in new window
-                        $("<td>").html('<img src="' + imageUrl + '">'),
+                        $("<th>").text("$" + cost),
+                        $("<td>").html('<a  target="_blank" href="' + menuUrl + '">Menu</a>'),
+                        $("<td>").html('<img style="width="300px", height="200px"" src="' + imageUrl + '">'),
 
                     );
-                    console.log(newRow)
 
-                    //Append the new row to the table
-                    $('#restuarant-table > tbody').append(newRow);
+                    //Prepend the new row to the table
+                    $('#restuarant-table > tbody').prepend(newRow);
 
                 });
             });
