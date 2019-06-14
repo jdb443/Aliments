@@ -55,13 +55,13 @@ $(document).ready(function () {
                     console.log(restaurantMenu)
 
                     //create table rows
-                    var newRow = $("<tr>").append(
-                        $("<th>").text(name),
-                        $("<th>").text(location),
-                        $("<th>").text(hours),
-                        $("<th>").text("$" + cost),
-                        $("<td>").html('<a target="_blank" href="' + menuUrl + '">Menu</a>'),
-                        $("<td>").html('<img class="api-image-smaller" src="' + imageUrl + '">'),
+                    var newRow = $("<tr class='inlineH'>").append(
+                        $("<th class='inlineH'>").text(name),
+                        $("<td class='inlineH'>").text(location),
+                        $("<td class='inlineH'>").text(hours),
+                        $("<td class='inlineH'>").text("$" + cost),
+                        $("<td class='inlineH'>").html('<a target="_blank" href="' + menuUrl + '">Menu</a>'),
+                        $("<td class='inlineH'>").html('<img class="api-image-smaller" src="' + imageUrl + '">'),
 
                     );
 
