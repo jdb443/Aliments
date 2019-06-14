@@ -60,8 +60,8 @@ $(document).ready(function () {
                         $("<th>").text(location),
                         $("<th>").text(hours),
                         $("<th>").text("$" + cost),
-                        $("<td>").html('<a  target="_blank" href="' + menuUrl + '">Menu</a>'),
-                        $("<td>").html('<img style="width="300px", height="200px"" src="' + imageUrl + '">'),
+                        $("<td>").html('<a target="_blank" href="' + menuUrl + '">Menu</a>'),
+                        $("<td>").html('<img class="api-image-smaller" src="' + imageUrl + '">'),
 
                     );
 
