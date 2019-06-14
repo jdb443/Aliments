@@ -5,7 +5,7 @@ $(document).ready(function () {
     $("#submit-button").on("click", function () {
         var app_id = "app_id=522e495c"
         var app_key = "app_key=7a10cb63e3cc3756fddfd774a4d1f20b"
-        var cuisine = $("#cuisine-type").val().trim();
+        var cuisine = $("#search").val().trim();
         var url = `https://api.edamam.com/search?q=` + cuisine + `&` + app_id + `&` + app_key + `&from=0&to=3&calories=591-722&health=alcohol-free`
         //console.log(url);
         // create a var for the chicken (user input)
