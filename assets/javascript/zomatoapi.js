@@ -56,12 +56,12 @@ $(document).ready(function () {
 
                     //create table rows
                     var newRow = $("<tr class='inlineH'>").append(
-                        $("<th class='inlineH'>").text(name),
-                        $("<td class='inlineH'>").text(location),
-                        $("<td class='inlineH'>").text(hours),
-                        $("<td class='inlineH'>").text("$" + cost),
-                        $("<td class='inlineH'>").html('<a target="_blank" href="' + menuUrl + '">Menu</a>'),
-                        $("<td class='inlineH'>").html('<img class="api-image-smaller" src="' + imageUrl + '">'),
+                        $("<th class='inlineH s2 center'>").text(name),
+                        $("<td class='inlineH s2 center'>").text(location),
+                        $("<td class='inlineH s2 center'>").text(hours),
+                        $("<td class='inlineH s2 center'>").text("$" + cost),
+                        $("<td class='inlineH s2 center'>").html('<a target="_blank" href="' + menuUrl + '">Menu</a>'),
+                        $("<td class='inlineH s2 center'>").html('<img class="api-image-smaller" src="' + imageUrl + '">'),
                     );
 
                     //Prepend the new row to the table
