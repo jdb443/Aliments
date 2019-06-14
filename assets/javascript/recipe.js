@@ -38,14 +38,14 @@ $(document).ready(function () {
                 // Create the new row
                 var newRow = $('<tr>').append(
                     $('<th>').text("hi"),
-                    $('<td>').html('<img src="' + imageUrl + '">'),
+                    $('<td>').html('<img class="api-image-smaller" src="' + imageUrl + '">'),
                     $('<td>').text(healthLabel),
                     $('<td>').text(caution),
                     $('<td>').text(recipes)
                 );
                 console.log(newRow)
                 // Append the new row to the table
-                $('#recipe-table > tbody').append(newRow);
+                $('#recipe-table > tbody').prepend(newRow);
             });
         });
     });

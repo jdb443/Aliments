@@ -226,3 +226,8 @@ textarea.materialize-textarea.valid:focus, .select-wrapper.valid > input.select-
   padding-right: 10px;
   top: .75rem;
 }
+
+.api-image-smaller {
+  height: 250px;
+  width: 250px;
+}
