@@ -1,6 +1,12 @@
 
 $(document).ready(function () {
 
+    $("#clear-button").on("click", function(event) {
+        event.preventDefault();
+        $("#restuarant-table").empty();
+        // event.preventDefault();
+    });
+
     //adding click event listener
     $("#submit-button").on("click", function () {
         var cuisine = $("#search").val().trim();

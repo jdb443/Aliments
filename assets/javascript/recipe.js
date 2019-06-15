@@ -1,6 +1,11 @@
 
 $(document).ready(function () {
 
+    $("#clear-button").on("click", function(event) {
+        event.preventDefault();
+        $("#recipe-table").empty();
+        // event.preventDefault();
+    });
     //adding click event listener
     $("#submit-button").on("click", function () {
         var app_id = "app_id=522e495c"
@@ -9,7 +14,6 @@ $(document).ready(function () {
         var url = `https://api.edamam.com/search?q=` + cuisine + `&` + app_id + `&` + app_key + `&from=0&to=10&calories=591-722&health=alcohol-free`
         //console.log(url);
         // create a var for the chicken (user input)
-
         //prevents page from reloading on form submit
         event.preventDefault();
 
