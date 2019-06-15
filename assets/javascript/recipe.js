@@ -4,10 +4,12 @@ $(document).ready(function () {
     $("#clear-button").on("click", function(event) {
         event.preventDefault();
         $("#recipe-table").empty();
+        $("#restaurant-table").empty();
         // event.preventDefault();
     });
     //adding click event listener
-    $("#submit-button").on("click", function () {
+    $("#submit-button").on("click", function (e) {
+        e.preventDefault()
         var app_id = "app_id=522e495c"
         var app_key = "app_key=7a10cb63e3cc3756fddfd774a4d1f20b"
         var cuisine = $("#search").val().trim();
@@ -56,7 +58,7 @@ $(document).ready(function () {
                 );
                 console.log(newRow)
                 // Append the new row to the table
-                $("#recipe-table > tbody").prepend(newRow);
+                $("#recipe-table").prepend(newRow);
             });
         });
     });

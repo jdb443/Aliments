@@ -1,14 +1,15 @@
 
 $(document).ready(function () {
 
-    $("#clear-button").on("click", function(event) {
-        event.preventDefault();
-        $("#restuarant-table").empty();
-        // event.preventDefault();
-    });
+    // $("#clear-button").on("click", function(event) {
+    //     event.preventDefault();
+    //     $("#restuarant-table").empty();
+    //     // event.preventDefault();
+    // });
 
     //adding click event listener
-    $("#submit-button").on("click", function () {
+    $("#submit-button").on("click", function (e) {
+        e.preventDefault()
         var cuisine = $("#search").val().trim();
 
         console.log(cuisine);
@@ -71,7 +72,7 @@ $(document).ready(function () {
                     );
 
                     //Prepend the new row to the table
-                    $('#restuarant-table > tbody').prepend(newRow);
+                    $('#restaurant-table').prepend(newRow);
 
                 });
             });
