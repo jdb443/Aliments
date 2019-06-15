@@ -6,6 +6,38 @@
  * Made By MaterializeCSS.com
  */
 
+ @font-face {
+  font-family: 'arcelik_turkish_bigcapsRg';
+  src: url('fonts/arcelikturkishbigcaps-webfont.woff2') format('woff2'),
+       url('fonts/arcelikturkishbigcaps-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'arcelik_turkish_smallcapsRg';
+  src: url('fonts/arcelikturkishsmallcaps-webfont.woff2') format('woff2'),
+       url('fonts/arcelikturkishsmallcaps-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'assassinregular';
+  src: url('fonts/assassin-webfont.woff2') format('woff2'),
+       url('fonts/assassin-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'lighthausregular';
+  src: url('fonts/lighthaus-webfont.woff2') format('woff2'),
+       url('fonts/lighthaus-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 nav ul a,
 nav .brand-logo {
   color: #444;
@@ -37,7 +69,6 @@ p {
 .martop80 {
   min-height: 1927px;
 }
-
 
 .parallax-container0 {
   min-height: 1927px;
@@ -233,7 +264,6 @@ textarea.materialize-textarea.valid:focus, .select-wrapper.valid > input.select-
 }
 
 .navbarora {
-
   background-color: #FFA500;
   background-image: repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(255, 255, 255, 0.2) 35px, rgba(255, 255, 255, 0.2) 70px), repeating-linear-gradient(-45deg, transparent, transparent 35px, rgba(255,255,255,0.4) 35px, rgba(255,255,255,0.4) 70px);
   background-attachment: fixed;
