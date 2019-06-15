@@ -56,7 +56,7 @@ $(document).ready(function () {
                 );
                 console.log(newRow)
                 // Append the new row to the table
-                $('#recipe-table > tbody').prepend(newRow);
+                $("#recipe-table > tbody").prepend(newRow);
             });
         });
     });
