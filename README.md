@@ -24,6 +24,6 @@ Build a app that allows users to compare options of dining in or dining out. Giv
 * Zomato Restaurants Search API - API used for Restaurants info <br>
 
 ## Screenshot ##
-[Link to Cook-It of Book-It Screenshot:](assets/images/CookItorBookItAliments.jpg) assets/images/CookItorBookItAliments.jpg
+[Link to Cook-It of Book-It Screenshot:](assets/images/CookItorBookItAliments.jpg) ![Screenshot Name](https://github.com/jdb443/Aliments/blob/master/assets/images/CookItorBookItAliments.jpg?raw=true)
 
 
